@@ -6,5 +6,6 @@ The source to my corresponding [Code Project article](http://www.codeproject.com
 Use [composer](https://getcomposer.org/doc/00-intro.md)
 
 ```
+cd php
 composer install
 ```
