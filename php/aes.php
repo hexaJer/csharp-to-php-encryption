@@ -19,9 +19,10 @@
 // along with the C# to PHP Encryption Library.  If not, see <http://www.gnu.org/licenses/>.
 //
 
-include('Crypt/AES.php');
+include 'vendor/autoload.php';
+use phpseclib\Crypt\AES;
 
-$aes = new Crypt_AES();
+$aes = new AES();
 
 $aes->setKey('abcdefghijklmnopabcdefghijklmnop');
 $aes->setIV('abcdefghijklmnop');
